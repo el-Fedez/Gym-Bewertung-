@@ -1,18 +1,32 @@
-# Gym Ranking V2
+# Gym Ranking – GitHub Pages
+
+Diese Version ist für eine öffentliche GitHub-Pages-Seite gedacht.
+
+## Datenschutz
+**Keine persönliche Hevy-Datei wird im Repository gespeichert.**
+Die Website enthält nur HTML/CSS/JavaScript. Deine CSV wird auf dem iPhone im Browser eingelesen und dort verarbeitet.
+
+## GitHub Pages
+1. Alle Dateien dieses Ordners in das Repository hochladen.
+2. Repository → Settings → Pages.
+3. Source: **Deploy from a branch**
+4. Branch: **main**
+5. Folder: **/ (root)**
+6. Speichern.
+7. Die angezeigte Pages-Adresse öffnen.
+
+## Nutzung auf dem iPhone
+Website öffnen → **CSV importieren** → Hevy-Export auswählen.
+
+Die CSV wird ausschließlich im Browser verarbeitet und nicht an einen Server hochgeladen.
 
 ## Enthalten
-- Hevy-CSV-Auswertung ohne Hevy Pro/API
-- Übungsanalyse mit Epley-1RM
-- Volumen, Satzanzahl, Bestgewicht
-- persönlicher Fortschritt
+- 1RM-Schätzung
+- persönliche Übungsrankings
 - Muskelgruppenprofil
-- mobile iPhone-Oberfläche
-- Alters-/Körpergewichts-Benchmark als nächster Daten-Layer
+- Volumen
+- Bestgewichte
+- Fortschritt
+- iPhone-optimiertes UI
 
-## Start
-1. Öffne `index.html` in einem modernen Browser.
-2. Für iPhone kannst du das Projekt über einen beliebigen statischen Webhost bereitstellen.
-3. `data.json` enthält die aus deinem aktuellen Hevy-Export berechnete Analyse.
-
-## Ranking-Hinweis
-Die V2 verwendet noch kein behauptetes weltweites Alters-Perzentil. Das wäre ohne belastbare Vergleichsdaten unseriös. Dafür ist die Benchmark-Schicht vorbereitet.
+Ein echtes Alters-/Körpergewichts-Perzentil wird erst eingebaut, wenn belastbare Benchmarkdaten hinterlegt sind.
